@@ -1,0 +1,137 @@
+@font-face{
+    font-family: Raleway;
+    src: url(Raleway-Light.ttf);
+}
+
+@font-face{
+    font-family: Ralewaybold;
+    src: url(Raleway-SemiBold.ttf);
+}
+
+body{
+    font-family: Ralewaybold;
+    background-color: lightblue;
+}
+
+main {
+    background-color: white;
+    width: 50%;
+    height: 20%;
+    border: blue 1px solid;
+    border-radius: 2vh;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+button {
+    margin-top: 1vh;
+    text-decoration: none;
+    height: 3vh;
+    width: 5vh;
+    font-size: 1.5vh;
+    width: auto;
+    background-color: blue;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(90, 194, 255);
+    color: white;
+}
+
+#word {
+    font-size: 3vh;
+}
+
+#wrongs {
+    text-align: left;
+    top: 0;
+    margin: auto;
+    float: left;
+}
+
+#correct{
+    text-align: right;
+    top: 0;
+    margin: auto;
+    float: right;
+}
+
+#letter {
+    height: 2vh;
+    font-size: 3vh;
+    caret-color: black;
+}
+
+
+#result {
+    background-color: white;
+    visibility: hidden;
+    font-family: Ralewaybold;   
+    font-size: 3vh;
+    font-weight: bold;
+    width: 50%;
+    height: auto;
+    border: blue 1px solid;
+    position: absolute;
+    border-radius: 4vh;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#result h1{
+    text-align: center;
+}
+
+#result #info{
+    background-color: rgb(90, 194, 255);
+    text-align: center;
+    border-bottom: black 1px solid;
+    border-top: black 1px solid;
+}
+
+#points {
+    background-color: green;
+    text-align: center;
+    border-bottom: black 1px solid;
+    border-top: black 1px solid;
+}
+
+#mistakes {
+    background-color: red;
+    text-align: center;
+    border-bottom: black 1px solid;
+    border-top: black 1px solid;
+}
+
+#wpm {
+    background-color: rgb(90, 194, 255);
+    text-align: center;
+    border-bottom: black 1px solid;
+    border-top: black 1px solid;
+}
+
+
+#result button {
+    margin-left: 46vh;
+    margin-top: 1vh;
+    text-decoration: none;
+    height: 3vh;
+    width: 5vh;
+    font-size: 1.5vh;
+    width: auto;
+    background-color: blue;
+    color: white;
+    margin-bottom: 2vh;
+}
+
+#result button:hover {
+    background-color: rgb(90, 194, 255);
+    color: white;
+}
